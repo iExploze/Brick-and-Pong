@@ -1,8 +1,4 @@
-import javax.swing.JFrame;
-import java.awt.*;
 import javax.swing.*;
-import java.awt.Toolkit;
-import java.awt.event.WindowEvent;
 
 public class Main {
 
@@ -12,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         JFrame frame = new JFrame();
-        frame.setBounds(0, 0, SCREEN_WIDTH +15, SCREEN_HEIGHT +35);
+        frame.setBounds(0, 0, SCREEN_WIDTH + 15, SCREEN_HEIGHT + 35);
         //due to the edge missing on the JFrame for intellij and the newest blueJ
         //added this fix this missing edge
 

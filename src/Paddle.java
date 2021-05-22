@@ -1,6 +1,6 @@
 import java.awt.*;
 
-public class Paddle extends Brick{
+public class Paddle extends Brick {
 
     private static final int SCREEN_WIDTH = Main.SCREEN_WIDTH;
     private static final int SCREEN_HEIGHT = Main.SCREEN_HEIGHT;
@@ -22,27 +22,24 @@ public class Paddle extends Brick{
         this.speed = speed;
     }
 
-    public void hit()
-    {
-        Music.playMusic("src/Resources/BounceSound.wav",0.6);
+    public void hit() {
+        Music.playMusic("src/Resources/BounceSound.wav", 0.6);
         setVisible(true);
     }
 
     public void moveUp()//move up
     {
-        this.setY(this.getY()-speed);
-        if(this.getY()<0)
-        {
+        this.setY(this.getY() - speed);
+        if (this.getY() < 0) {
             this.setY(0);
         }
     }
 
     public void moveDown()//move down
     {
-        this.setY(this.getY()+speed);
-        if(this.getY()+this.getHeight()>SCREEN_HEIGHT-5)
-        {
-            this.setY(SCREEN_HEIGHT-this.getHeight());
+        this.setY(this.getY() + speed);
+        if (this.getY() + this.getHeight() > SCREEN_HEIGHT - 5) {
+            this.setY(SCREEN_HEIGHT - this.getHeight());
         }
     }
 
