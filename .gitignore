@@ -19,5 +19,21 @@
 *.tar.gz
 *.rar
 
+##############################
+## IntelliJ
+##############################
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+.idea/.name
+*.xml
+Brick-and-Pong.iml
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
