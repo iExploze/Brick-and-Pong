@@ -2,6 +2,7 @@ import java.awt.*;
 import java.util.ArrayList;
 
 public class ExplosiveBrick extends Brick {
+    //TODO add comments
 
     private final ArrayList<Brick> brickList = new ArrayList<>();
     private boolean gotHit = false;

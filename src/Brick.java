@@ -2,6 +2,7 @@ import java.awt.*;
 import java.util.ArrayList;
 
 public class Brick {
+    //TODO add comments
     private boolean visible;
     private final ArrayList<Brick> brickList = new ArrayList<>();
     private Color color;

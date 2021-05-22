@@ -2,6 +2,7 @@ import java.awt.*;
 import java.util.ArrayList;
 
 public class Ball {
+    //TODO add comments
     //instance variable
     private int x;    //top left x value
     private int y;    //top left y value

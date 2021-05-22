@@ -5,6 +5,7 @@ import java.awt.event.KeyListener;
 import java.util.ArrayList;
 
 public class Player extends JPanel implements KeyListener {
+    //TODO add comments
     private static final int SCREEN_WIDTH = Main.SCREEN_WIDTH;
     private static final int SCREEN_HEIGHT = Main.SCREEN_HEIGHT;
 

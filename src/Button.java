@@ -3,6 +3,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
 public class Button implements MouseListener {
+    //TODO add comments
     private final Rectangle rectangle;
     private Image image;
     private boolean mouseClicked;

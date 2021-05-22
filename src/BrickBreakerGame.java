@@ -4,6 +4,7 @@ import java.awt.event.*;
 import java.util.ArrayList;
 
 public class BrickBreakerGame extends JPanel implements KeyListener, ActionListener, MouseListener, MouseMotionListener {
+    //TODO add comments
     private static final int SCREEN_WIDTH = Main.SCREEN_WIDTH;
     private static final int SCREEN_HEIGHT = Main.SCREEN_HEIGHT;
 
@@ -37,6 +38,10 @@ public class BrickBreakerGame extends JPanel implements KeyListener, ActionListe
     private final Button ExplosiveModeButton;
     private String GameMode;
     private final String[] GameModeArray = {"Classic", "Mayhem", "Explosive", "Inverse", "Dodge", "Invisible"};
+    //FIXME add all these modes with the states class:
+    // Inverse?
+    // Dodge
+    // and Invisible ball or brick
 
     //Objects for Game Screen
     private Ball ball1;
