@@ -1,7 +1,5 @@
 # Brick-and-Pong
 
-A game I have made for my Grade 12 AP Computer Science A class to learn OOP in Java.
-
 
 
 Controls:
